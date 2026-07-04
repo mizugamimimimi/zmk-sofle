@@ -60,7 +60,7 @@ layers:
   - LAYER1
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - LANG ZENKAKUHANKAKU
+  - {t: Alt+`, s: Alt+~}
   - LAYER2
   - $$mdi:backspace-reverse-outline$$
   - {t: '[', s: '{'}

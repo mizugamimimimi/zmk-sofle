@@ -63,8 +63,8 @@ layers:
   - {t: '`', s: '~'}
   - LAYER2
   - $$mdi:backspace-reverse-outline$$
-  - '{'
-  - '}'
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   LAYER1:
   - {t: '`', s: '~'}
   - F1

@@ -92,7 +92,8 @@
 &kp C_MUTE      &kp LEFT_ALT  &kp LEFT_GUI  &kp APOS  &mo 1   &kp SPACE    &kp ENTER        &kp LANG_ZENKAKUHANKAKU  &mo 2   &kp DELETE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
             >;
 
-            sensor-bindings = <&rsr_vol &rsr_trans>;
+            sensor-bindings = <&scroll_encoder>, <&rsr_trans>;
+
             display-name = "LAYER0";
         };
 
